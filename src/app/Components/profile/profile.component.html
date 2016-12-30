@@ -1,0 +1,15 @@
+<h3>User Profile</h3>
+<h5>Name: {{ userProfile.nickname}}</h5>
+
+<div class = "row">
+  <div class = "col-md-2">
+    <img class = "thumbnail" style = "width: 100%" src = "{{userProfile.picture}}">
+  </div>
+
+  <div class = "col-md-10">  
+      <ul class = "list-group">
+          <li class = "list-group-item"><strong>Email:</strong> {{userProfile.name}}</li>
+          <li class = "list-group-item"><strong>Profile last updated:</strong> {{userProfile.updated_at}}</li>
+      </ul>
+  </div>
+</div>   
